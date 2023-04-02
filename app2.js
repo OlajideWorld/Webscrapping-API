@@ -41,7 +41,7 @@ try {
           $(parentElem).children().each((childrenIdx,childrenElem)=> {
             let tdValue = $(childrenElem).text();
             
-          if(keysIdx == 1 || keysIdx == 6){
+          if(keysIdx === 1 || keysIdx === 6){
             tdValue = $("p:first-child",$(childrenElem).html()).text()
           }
 
